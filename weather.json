@@ -1,0 +1,20 @@
+[
+  {
+    "Date": "2025-10-20",
+    "Rainfall": 0,
+    "Pressure3pm": 1015,
+    "Humidity3pm": 29
+  },
+  {
+    "Date": "2025-10-21",
+    "Rainfall": 3.6,
+    "Pressure3pm": 1008.4,
+    "Humidity3pm": 36
+  },
+  {
+    "Date": "2025-10-22",
+    "Rainfall": 10.2,
+    "Pressure3pm": 1005,
+    "Humidity3pm": 80
+  }
+]
