@@ -25,7 +25,7 @@ if (!fsSync.existsSync(inputPath)) {
 }
 
 // 3) Налаштування XML-конвертера
-const j2x = new fxp.j2xParser({
+const parser = new fxp.XMLBuilder({
   format: true,
   indentBy: "  "
 });
@@ -66,7 +66,7 @@ const server = http.createServer(async (req, res) => {
       });
 
     const xmlObj = buildXmlObject(filtered);
-    const xml = j2x.parse(xmlObj);
+    const xml = parser.build(xmlObj);
 
     res.writeHead(200, { 'Content-Type': 'application/xml; charset=utf-8' });
     res.end(xml);
