@@ -1,10 +1,11 @@
 {
   "name": "backend-course-2025-4",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Lab 4 - simple HTTP server (weather variant)",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.js",
+    "dev": "nodemon main.js --exec node"
   },
   "repository": {
     "type": "git",
